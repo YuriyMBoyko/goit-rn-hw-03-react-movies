@@ -42,7 +42,7 @@ export default function App() {
     fetchData();
   }, [searchStr]);
 
-  const handleSearch = async (searchStr: string) => {
+  const handleSubmit = async (searchStr: string) => {
     setSearchStr(searchStr.trim());
   }
 
@@ -57,7 +57,7 @@ export default function App() {
   return (
     <div className={css.app}>
       <Toaster position='top-center' />
-      <SearchBar onSearch={handleSearch}/>
+      <SearchBar onSubmit={handleSubmit}/>
 
       {isLoading && <Loader />}
 
