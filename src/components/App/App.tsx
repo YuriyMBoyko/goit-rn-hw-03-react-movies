@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import toast, { Toaster } from 'react-hot-toast'
+import toast from 'react-hot-toast'
 import css from './App.module.css'
 import type { Movie } from '../../types/movie.ts'
 import SearchBar from '../SearchBar/SearchBar.tsx'
@@ -56,7 +56,6 @@ export default function App() {
 
   return (
     <div className={css.app}>
-      <Toaster position='top-center' />
       <SearchBar onSubmit={handleSubmit}/>
 
       {isLoading && <Loader />}
