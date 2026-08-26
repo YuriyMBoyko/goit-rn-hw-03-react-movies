@@ -42,9 +42,9 @@ TypeScript-код має бути чистим, зрозумілим і відф
 
 Корисні для вас розділи документації:
 
-  [Як створити повний шлях до зображення](https://developer.themoviedb.org/docs/image-basics)
-  [Як додати токен доступу до запитів](https://developer.themoviedb.org/docs/authentication-application)
-  [Пошук фільмів за ключовим словом](https://developer.themoviedb.org/reference/search-movie)
+  [Як створити повний шлях до зображення](https://developer.themoviedb.org/docs/image-basics)  
+  [Як додати токен доступу до запитів](https://developer.themoviedb.org/docs/authentication-application)  
+  [Пошук фільмів за ключовим словом](https://developer.themoviedb.org/reference/search-movie)  
 
 
 Щоб додати токен авторизації до Axios-запиту, потрібно вказати його у заголовках (headers) під час виклику методів axios. Твій config object для аксіоса буде виглядати наступним чином:
